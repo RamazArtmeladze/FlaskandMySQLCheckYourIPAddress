@@ -1,0 +1,25 @@
+{% block body %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MyIPadress</title>
+  </head>
+  <body>
+    <h1>MyIPadress</h1>
+    <form method="POST" action="myip">
+  <table>
+    <p>Using the app, use can check your IP address</p>
+    <tr>
+      <td>Enter your name:</td>
+      <td><input type="TEXT" name="user_name" width="60" /></td>
+    </tr>
+  </table>
+  <p>
+    When you enter your name, click the button below:
+  </p>
+  <p><input value="Get My IP" type="SUBMIT" /></p>
+</form>
+  </body>
+</html>
+{% endblock %}
